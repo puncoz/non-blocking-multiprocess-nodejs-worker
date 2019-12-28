@@ -1,0 +1,12 @@
+{
+  "name": "non-blocking-multiprocess-nodejs-worker",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:blocking": "nodemon exec node blocking/server.js",
+    "start:non-blocking": "nodemon exec node non-blocking/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
